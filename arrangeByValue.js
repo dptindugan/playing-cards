@@ -1,7 +1,7 @@
-const groupBySuit = require('./groupBySuit');
+// const groupBySuit = require('./groupBySuit');
 
 
-module.exports = (cards, direction) => {
+function arrangeByValue (cards, direction) {
 
   const { clubs, diamonds, hearts, spades } = groupBySuit(cards);
 
@@ -63,3 +63,5 @@ module.exports = (cards, direction) => {
 
   return [...clubs, ...diamonds, ...hearts, ...spades]
 }
+
+// module.exports = arrangeByValue;

@@ -1,4 +1,4 @@
-module.exports = (cards) => {
+function groupBySuit (cards) {
   const clubs = [],
   diamonds = [],
   spades = [],
@@ -26,3 +26,5 @@ module.exports = (cards) => {
     hearts
   }
 }
+
+// module.exports = groupBySuit;

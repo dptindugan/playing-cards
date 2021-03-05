@@ -1,4 +1,4 @@
-module.exports = (deck) => {
+function dealCard (deck) {
   const card = deck[0];
 
   let value = card.substring(1)
@@ -38,3 +38,5 @@ module.exports = (deck) => {
 
   return `${numberToWords(value)} of ${unixToWord(suit)}`;
 }
+
+// module.exports = dealCard
