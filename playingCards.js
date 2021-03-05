@@ -21,5 +21,3 @@ suits.forEach((suit)=> {
     cards.push(suit.concat(value));
   })
 })
-
-// module.exports = cards;

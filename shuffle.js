@@ -1,3 +1,4 @@
+
 function shuffle(array) {
   var m = array.length, t, i;
 
@@ -15,5 +16,3 @@ function shuffle(array) {
 
   return array;
 }
-
-// module.exports = shuffle;

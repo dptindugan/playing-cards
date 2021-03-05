@@ -38,5 +38,3 @@ function dealCard (deck) {
 
   return `${numberToWords(value)} of ${unixToWord(suit)}`;
 }
-
-// module.exports = dealCard

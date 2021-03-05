@@ -1,6 +1,3 @@
-// const groupBySuit = require('./groupBySuit');
-
-
 function arrangeByValue (cards, direction) {
 
   const { clubs, diamonds, hearts, spades } = groupBySuit(cards);

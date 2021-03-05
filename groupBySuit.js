@@ -26,5 +26,3 @@ function groupBySuit (cards) {
     hearts
   }
 }
-
-// module.exports = groupBySuit;
